@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 10%;
+}
+
+.box1 {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.up {
+  margin-top: 60px;
+}
+
+.down {
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+  padding-bottom: 50px;
+}
+
+.down1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.down1 > :nth-child(1) {
+  width: 50%;
+  align-content: center;
+}
+
+.down1 > :nth-child(2) {
+  width: 50%;
+  height: auto;
+}
+
+h5 {
+  margin-bottom: 30px;
+}
+
+h6 {
+  margin-top: 30px;
+}
+
+#cm {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+#cm > :nth-child(1) {
+  width: 30px;
+}
+
+#cm > :nth-child(2) {
+  width: 30px;
+}
+
+#π {
+  text-align: left;
+}
+
+#area {
+  text-align: left;
+}
+
+#tax {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+#tax > :nth-child(1) {
+  width: 30px;
+  text-align: left;
+}
+
+#tax > :nth-child(2) {
+  width: 30px;
+  text-align: right;
+}
+
+.dol {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+}
+
+#perc {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+#perc > :nth-child(1) {
+  width: 30px;
+  justify-content: right;
+}
+
+#perc > :nth-child(2) {
+  width: 30px;
+  text-align: left;
+}
+
+#quant {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.total {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+}
